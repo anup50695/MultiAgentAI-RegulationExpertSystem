@@ -57,7 +57,7 @@ def main():
             st.write("No documents found for the selected category.")
             return
 
-        st.write("Click on a document ID to view details:")
+        st.write("Click on a Notification to analyze policy and assess impact")
         for doc_id, desc in document_ids:
             if st.button(f"{desc}", key=doc_id):
                 st.session_state.selected_id = doc_id
